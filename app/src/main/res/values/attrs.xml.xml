@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CouponDisplayView">
+        <attr name="CircleColor" format="color"/>
+    </declare-styleable>
+
+</resources>

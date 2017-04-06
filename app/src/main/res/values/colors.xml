@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1CAAF6</color>
+    <color name="colorPrimaryDark">#4A7AB9</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="divider">#f1f1f1</color>
+    <color name="dividerDark">#ededed</color>
+
+    <color name="alpha">#00000000</color>
+    <color name="text_color">#4D4D4D</color>
+    <color name="divider_color">#A1A1A1</color>
+    <color name="divider_color_service">#D8D8D8</color>
+    <color name="divider_color_car">#F2F2F2</color>
+    <color name="features_color_car">#f8f8f8</color>
+    <color name="white_f">#ffffff</color>
+    <color name="border_gray">#EEEEEF</color>
+    <color name="view_color">#E3E3E3</color>
+    <color name="pressed_color">#4A7AB9</color>
+    <color name="hint_text_color">#9097A1</color>
+    <color name="hint_text_color_bg">#EDD4AC</color>
+    <color name="hint_text">#D24C44</color>
+    <color name="notice_text_color">#787878</color>
+    <color name="layout_bg">#F2F3F5</color>
+    <color name="text_number_color">#FD6014</color>
+    <color name="view_gap_color">#8E8E8E</color>
+    <color name="view_color2">#D7D7D7</color>
+    <color name="gallery_blue">#1CAAF6</color>
+    <color name="car_center_layout">#001732</color>
+
+    <color name="button_agency_nm">#52C5A7</color>
+    <color name="button_agency_on">#26a69a</color>
+
+    <color name="color_orange">#fe5600</color>
+    <color name="gallery_red">#FF0000</color>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <coupon.allyn.com.couponallyn.CouponDisplayView
+        android:id="@+id/displayview"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dialog_round_layout"
+        android:foreground="?selectableItemBackground"
+        app:CircleColor="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/tv_money_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_time"
+            android:layout_alignStart="@+id/tv_time"
+            android:layout_marginBottom="32dp"
+            android:layout_marginStart="11dp"
+            android:text="￥"
+            android:textColor="@color/gallery_red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_money_text"
+            android:layout_alignBottom="@+id/tv_money_text"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/tv_money_text"
+            android:text="30"
+            android:textColor="@color/gallery_red"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_coupon_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_money_text"
+            android:layout_alignEnd="@+id/tv_status"
+            android:text="代缴服务费抵用券"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="16dp"
+            android:text="最后使用日期：2017-04-09 14:22:30" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_time"
+            android:layout_alignBottom="@+id/tv_time"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="23dp"
+            android:text="已过期" />
+    </coupon.allyn.com.couponallyn.CouponDisplayView>
+</layout>
